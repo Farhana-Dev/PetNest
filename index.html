@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PetNest</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/assets/images/petnest-logo.svg" type="image/x-icon">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <!-- FlatIcon -->
+        <link rel="stylesheet" href="/assets/css/flaticon.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+        <!-- Magnafic CSS -->
+        <link rel="stylesheet" href="/assets/css/magnafic.css">
+        <!-- Lightbox CSS -->
+        <link rel="stylesheet" href="/assets/css/xzoom.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="/assets/css/animate.css">
+        <!-- Mobile Menu CSS -->
+        <link rel="stylesheet" href="/assets/css/meanmenu.css">
+        <!-- Style Main CSS -->
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- Site Title -->
+        <title>PetNest - Shop</title>
+        
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header id="header-sticky" class="petnest-header">
+            <div class="container position-relative">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-2">
+                  <!-- Logo Start -->
+                  <div class="petnest-logo">
+                    <figure>
+                      <a href="/index.html"
+                        ><img src="/assets/images/petnest-logo.svg" alt="PetNest"
+                      /></a>
+                    </figure>
+                  </div>
+                  <!-- Logo End -->
+                </div>
+                <div class="col-lg-6">
+                  <div class="petnest-header-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li>
+                          <a href="/index.html">Home</a>
+                        </li>
+                        <li><a href="/about/about.html">About Us</a></li>
+                        <li>
+                          <a href="/services/services.html">Services</a>
+                          <ul class="submenu">
+                            <li>
+                              <a href="/services/grooming/grooming.html"
+                                >Grooming</a
+                              >
+                            </li>
+                            <li>
+                              <a href="/services/walking/walking.html">Walking</a>
+                            </li>
+                            <li>
+                              <a href="/services/rescue/rescue.html">Rescue</a>
+                            </li>
+                            <li>
+                              <a href="/services/training/training.html"
+                                >Training</a
+                              >
+                            </li>
+                            <li>
+                              <a href="/services/daycare/daycare.html">Daycare</a>
+                            </li>
+                            <li>
+                              <a href="/services/veterinary/veterinary.html"
+                                >Veterinary</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="/shop/shop.html">Shop</a></li>
+                        <li class="active">
+                    </nav>
+                  </div>
+                  <div class="mobile-menu"></div>
+                </div>
+                <div class="col-lg-4">
+                 <div class="petnest-header-user-info">
+                    <div class="search-top">
+                      <button class="search-trigger">
+                        <!-- <a href="#"><img src="/icons/search.png" alt="Search"></a>  -->
+                        <span>
+                          <a href="/shop/wishlist.html"><i class="fi fi-br-heart"></a></i>
+                        </span>           
+                      </button>
+                    </div>
+                    <div class="user-top">
+                        <li class="nav-item dropdown">
+                            <button>
+                            <a href="#" class="nav-link">
+                                <span>
+                                    <i class="fi fi-br-user"></i>
+                                </span>
+                                <!-- <img src="/icons/user.png" alt="User"></a> --> 
+                                <ul class="dropdown-menu">
+                                <li><a href="/user/login/login.html" class="dropdown-item">Log In</a></li>
+                                <li><a href="/user/sign up/signup.html" class="dropdown-item">Sign Up</a></li>
+                            </ul>
+                        </button>
+                        </li>
+                    </div>
+                    <div class="basket-top">
+                      <button>
+                         <a href="/cart.html"></a> 
+                         <span>
+                            <i class="fi fi-br-shopping-bag"></i>
+                         </span>
+                      </button>
+                      <div class="petnest-basket">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="petnest-basket-inner">
+                              <div class="row d-flex align-items-center">
+                                <div class="product-in-basket">
+                                  <div class="row">
+                                    <div class="col-md-3 col-3">
+                                      <div class="petnest-basket-inner-left">
+                                        <figure>
+                                          <img
+                                            src="/assets/images/home/product01.png"
+                                            alt=""
+                                          />
+                                        </figure>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-9 col-9">
+                                      <div class="petnest-basket-inner-right">
+                                        <h4>Pilchard Prawn Jelly</h4>
+                                        <div class="petnest-total-ammount-home">
+                                          <div class="qty-home">
+                                            <span>Qty: <strong>1</strong></span>
+                                          </div>
+                                          <div class="total-price-qty">
+                                            <span>₹ 120.00</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="divider-qty-home"></div>
+                                <div class="col-md-3 col-3">
+                                  <div class="petnest-total-title">
+                                    <h5>Total</h5>
+                                  </div>
+                                </div>
+                                <div class="col-md-9 col-9">
+                                  <div class="petnest-total-sum">
+                                    <span>₹ 120.00</span>
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="basket-short-btn-wrap">
+                                    <div class="basket-short-btn">
+                                      <a
+                                        class="btn-primay btn-view-cart"
+                                        href="/cart.html"   
+                                        >View Cart</a
+                                      >
+                                    </div>
+                                    <div class="basket-short-btn">
+                                      <a
+                                        class="btn-primay btn-view-chekout"
+                                        href="/checkout.html"
+                                        >Check Out</a
+                                      >
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contact-us-top d-md-block d-none">
+                      <a class="btn-primay" href="/contact us/contact.html"
+                        >Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- Header End -->
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your pet is a part <br> of our family</h1>
+            <p>At PetNest, we offer a variety of services including daily walks, playtime, grooming, feeding, medication administration, and comfortable boarding accommodations with 24/7 supervision by our trained and loving staff!</p>
+            <div class="hero-buttons">
+                <button class="services-btn" onclick="window.location.href='/services/services.html'">Our Services</button>
+                <button class="schedule-btn" onclick="window.location.href='/services/veterinary/veterinary.html'">Book a Schedule</button>
+            </div>
+        </div>
+       <div class="hero-image">
+            <img src="/icons/hero.avif" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+   <!----<section class="services">
+        <h2>Complete Pet Wellness Services</h2>
+        <div class="service-grid">
+            <div class="service-item grooming">Grooming</div>
+            <div class="service-item walking">Walking</div>
+            <div class="service-item rescue">Rescue</div>
+            <div class="service-item training">Training</div>
+            <div class="service-item daycare">Daycare</div>
+            <div class="service-item veterinary">Veterinary</div>
+        </div>
+        <div class="services-image">
+            <img src="services-image.png" alt="Pets">
+        </div>
+    </section>
+
+    <script src="script.js"></script>-->
+    <div class="service-container">
+        <section class="service-header">
+        <h3>Our Services</h3>
+        <h2>Complete Pet Wellness Services</h2>
+        <div class="services">
+            <div class="service-card grooming">
+                <a href="/services/grooming/grooming.html"><img src="/icons/grooming.png" alt="Grooming"></a>
+                <p>Grooming</p>
+            </div>
+            <div class="service-card walking">
+                <a href="/services/walking/walking.html"><img src="/icons/walking.png" alt="Walking"></a>
+                <p>Walking</p>
+            </div>
+            <div class="service-card rescue">
+                <a href="/services/rescue/rescue.html"><img src="/icons/rescue-dog.png" alt="Rescue"></a>
+                <p>Rescue</p>
+            </div>
+            <div class="service-card training">
+                <a href="/services/training/training.html"><img src="/icons/training.png" alt="Training"></a>
+                <p>Training</p>
+            </div>
+            <div class="service-card daycare">
+                <a href="/services/daycare/daycare.html"><img src="/icons/daycare.png" alt="Daycare"></a>
+                <p>Daycare</p>
+            </div>
+            <div class="service-card veterinary">
+                <a href="/services/veterinary/veterinary.html"><img src="/icons/veterinarian.png" alt="Veterinary"></a>
+                <p>Veterinary</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="petnest-faq"></section>
+      <div class="container">
+        <div class="row">
+          <div class="petnest-faq-inner">
+            <div class="petnest-faq-buble-animation">
+              <!-- Bubble Animation Start -->
+              <figure>
+                <img src="/assets/images/icon/bubble-1.svg" alt="" />
+              </figure>
+              <figure>
+                <img src="/assets/images/icon/bubble-2.svg" alt="" />
+              </figure>
+              <!-- Bubble Animation End -->
+            </div>
+            <div class="petnest-faq-animation">
+              <div class="petnest-bounce-animate">
+                <figure>
+                  <img src="/assets/images/icon/leash02.svg" alt="" />
+                </figure>
+              </div>
+              <div class="petnest-bounce-animate">
+                <figure>
+                  <img src="/assets/images/icon/pet-toy01.svg" alt="" />
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="petnest-heading petnest-heading-faq">
+                  <h5>FAQ</h5>
+                  <h2>
+                    Your Questions, Our <br class="d-xl-block d-none" />Answers
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-12">
+                <div class="petnest-faq-left">
+                  <figure>
+                    <img src="/icons/faq-petnest.png" alt="" />
+                  </figure>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-12">
+                <div class="petnest-faq-right">
+                  <div class="accordion" id="accordionPetnest">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button
+                          class="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#petnestFaqOne"
+                          aria-expanded="true"
+                          aria-controls="petnestFaqOne"
+                        >
+                          Q. What services do you offer for pet care??
+                        </button>
+                      </h2>
+                      <div
+                        id="petnestFaqOne"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#accordionPetnest"
+                      >
+                        <div class="accordion-body">
+                          PetNest agency provide various services for pet
+                          owners, including pet sitting, where a pet sitter
+                          visits the owner's home to care for the pet while the
+                          owner is away, dog walking, overnight pet care,
+                          feeding, administering medications, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#petnestFaqTwo"
+                          aria-expanded="false"
+                          aria-controls="petnestFaqTwo"
+                        >
+                          Q. Are your pet care providers trained and
+                          <br class="d-md-block d-none" />
+                          experienced?
+                        </button>
+                      </h2>
+                      <div
+                        id="petnestFaqTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionPetnest"
+                      >
+                        <div class="accordion-body">
+                          PetNest agency provide various services for pet
+                          owners, including pet sitting, where a pet sitter
+                          visits the owner's home to care for the pet while the
+                          owner is away, dog walking, overnight pet care,
+                          feeding, administering medications, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#petnestFaqThree"
+                          aria-expanded="false"
+                          aria-controls="petnestFaqThree"
+                        >
+                          Q. How do you handle emergency situations
+                          <br class="d-md-block d-none" />
+                          during pet sitting?
+                        </button>
+                      </h2>
+                      <div
+                        id="petnestFaqThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionPetnest"
+                      >
+                        <div class="accordion-body">
+                          PetNest agency provide various services for pet
+                          owners, including pet sitting, where a pet sitter
+                          visits the owner's home to care for the pet while the
+                          owner is away, dog walking, overnight pet care,
+                          feeding, administering medications, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#petnestFaqFour"
+                          aria-expanded="false"
+                          aria-controls="petnestFaqFour"
+                        >
+                          Q. What is your policy on administering
+                          <br class="d-md-block d-none" />
+                          medication to pets?
+                        </button>
+                      </h2>
+                      <div
+                        id="petnestFaqFour"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFour"
+                        data-bs-parent="#accordionPetnest"
+                      >
+                        <div class="accordion-body">
+                          PetNest agency provide various services for pet
+                          owners, including pet sitting, where a pet sitter
+                          visits the owner's home to care for the pet while the
+                          owner is away, dog walking, overnight pet care,
+                          feeding, administering medications, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#petnestFaqFive"
+                          aria-expanded="false"
+                          aria-controls="petnestFaqFive"
+                        >
+                          Q. Do you provide pet care for special
+                          <br class="d-md-block d-none" />
+                          needs animals?
+                        </button>
+                      </h2>
+                      <div
+                        id="petnestFaqFive"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFive"
+                        data-bs-parent="#accordionPetnest"
+                      >
+                        <div class="accordion-body">
+                          PetNest agency provide various services for pet
+                          owners, including pet sitting, where a pet sitter
+                          visits the owner's home to care for the pet while the
+                          owner is away, dog walking, overnight pet care,
+                          feeding, administering medications, and more.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Petnest Faq End -->
+
+    <div class="choose-container">
+        <!-- Left side with the image -->
+        <div class="image-container">
+            <img src="/icons/choose us.jpg" alt="Dog and owner">
+        </div>
+
+        <!-- Right side with the content -->
+        <div class="content-container">
+            <div class="content-header">
+                <p class="choose-us">Choose Us</p>
+                <h1>Why Choose Us?</h1>
+            </div>
+            <div class="content-item">
+                <img src="/icons/safety.png" alt="Quality Products">
+                <div class="text-content">
+                    <h3>Quality Products:</h3>
+                    <p>At PetNest, we carefully select products that meet the highest standards of quality and safety for your pets.</p>
+                </div>
+            </div>
+            <div class="content-item">
+                <img src="/icons/play-with-pet.png" alt="Expert Advice">
+                <div class="text-content">
+                    <h3>Expert Advice:</h3>
+                    <p>Our team consists of passionate pet lovers and experts who are always ready to help.</p>
+                </div>
+            </div>
+            <div class="content-item">
+                <img src="/icons/pet-shop.png" alt="Convenient Shopping Experience">
+                <div class="text-content">
+                    <h3>Shopping Experience: </h3>
+                    <p>Our user-friendly website and efficient delivery services make shopping for your pet’s needs simple and stress-free.</p>
+                </div>
+            </div>
+                <div class="content-item">
+                    <img src="/icons/pet-user.png" alt="Customer Satisfaction">
+                    <div class="text-content">
+                        <h3>Customer Satisfaction: </h3>
+                        <p>We pride ourselves on excellent customer service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="instagram-section">
+        <h2>Follow Our Instagram</h2>
+        <div class="instagram-images">
+            <div class="instagram-image">
+                <img src="/icons/insta-1.jpg" alt="Pet Image 1">
+            </div>
+            <div class="instagram-image">
+                <img src="/icons/insta-2.jpg" alt="Pet Image 2">
+            </div>
+            <div class="instagram-image">
+                <img src="/icons/insta-3.jpg" alt="Pet Image 3">
+            </div>
+            <div class="instagram-image">
+                <img src="/icons/insta-4.jpg" alt="Pet Image 4">
+            </div>
+        </div>
+        <p><a href="/about/about.html">@petnest</a></p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>PetNest</h4>
+                <p>These companies employ experienced and trained professionals who are dedicated to providing the highest quality of care for pets.</p>
+                <div class="social-icons">
+                    <a href="/about/about.html"><img src="/icons/facebook.png" alt="Facebook"></a>
+                    <a href="/about/about.html"><img src="/icons/instagram.png" alt="Instagram"></a>
+                    <a href="/about/about.html"><img src="/icons/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about/about.html">About Us</a></li>
+                    <li><a href="/services/services.html">Services</a></li>
+                    <li><a href="/shop/shop.html">Shop</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="/user/login/login.html">Log In</a></li>
+                    <li><a href="/user/sign up/signup.html">Sign Up</a></li>
+                    <li><a href="/search/search.html">Search</a></li>
+                    <li><a href="/contact us/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/shop/cart.html">Cart</a></li>
+                    <li><a href="/shop/wishlist.html">Wish list</a></li>
+                    <li><a href="/index.html">FAQ</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Address</h4>
+                <p>1/31 Green Gardens,<br>
+                Road No: 12, House No: 3, Hyderabad - 500032 </p>
+                <p><strong>Opening Hours</strong><br>
+                Mon - Fri : 10 am to 6 pm</p>
+                <p><strong>Contact Number</strong><br>
+                +91-9762145991</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Copyright PetNest</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <!-- jQuery Plugin -->
+    <script src="/assets/js/jquary.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/waypoints.2.0.3.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.min.js"></script>
+    <script src="/assets/js/isotope.v3.0.6.js"></script>
+    <script src="/assets/js/magnific.js"></script>
+    <script src="/assets/js/xzoom.min.js"></script>
+    <script src="/assets/js/jquery.hammer.min.js"></script>
+    <script src="/assets/js/range-slider.js"></script>
+    <!-- Main JS -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

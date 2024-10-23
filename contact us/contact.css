@@ -1,0 +1,296 @@
+/* Reset and basic styling */
+body, h1, h2, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff7f5;
+}
+
+
+.emergency-response {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    max-width: 50%;
+}
+
+
+h1 {
+    font-size: 56px;
+    color: #4b5563;
+    font-weight: 1000;
+}
+h2{
+    color: #8c8c8c;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.description {
+   
+    font-size: 20px;
+    color: #0f172a;
+    margin-bottom: 20px;
+
+}
+
+.image-container {
+    max-width: 40%;
+    position: relative;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.image-container::before {
+    content: '';
+    position: absolute;
+    background: #ffe4d2;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    z-index: 0;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*contact us form & map */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff5f3;
+}
+
+.form-section {
+    width: 40%;
+    padding: 20px;
+    background-color: #ffece8;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.form-section input, .form-section textarea {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-section button {
+    padding: 10px 20px;
+    background-color: #ff5b39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #e04a32;
+}
+
+.quote-section {
+    width: 40%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quote-section h2 {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.quote-section p {
+    margin-bottom: 30px;
+    color: #070505;
+    background-color: #e7b2a9;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+/* Styling the toast container */
+#toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.toast {
+    background-color: #4CAF50; /* Success green color */
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s, transform 0.3s;
+    font-size: 16px;
+}
+
+/* Animation for showing the toast */
+.toast.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*toaster and form ends */
+
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.map-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.map-section h2 {
+    margin-bottom: 20px;
+}
+/* Instagram section styles */
+.instagram-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FCECEC;
+    margin-top: 40px;
+}
+
+.instagram-section h2 {
+    color: #2D2E83;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.instagram-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.instagram-section p {
+    color: #2D2E83;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FFF7F7;
+    color: #2D2E83;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 20px;
+    min-width: 180px;
+}
+
+.footer-column h3, .footer-column h4 {
+    margin-bottom: 15px;
+    color: #2D2E83;
+}
+
+.footer-column p {
+    color: #7F7F7F;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #2D2E83;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9em;
+    color: #7F7F7F;
+}
